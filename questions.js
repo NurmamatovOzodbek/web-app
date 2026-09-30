@@ -594,1128 +594,584 @@ const questions = [
   },
   {
     id: 41,
-    type: "single",
     question:
-      "Question 41 of 80: What is the main purpose of a firewall in a computer network?",
+      "Which statement correctly describes the use of Creative Commons content in a project?",
+    type: "single",
     options: [
-      "A. To accelerate network data transfer speeds",
-      "B. To monitor and control incoming and outgoing network traffic based on security rules",
-      "C. To automatically back up personal files to the cloud",
-      "D. To clean dust from hardware components",
+      "A. All Creative Commons content is automatically owned by the government and cannot be used for commercial purposes.",
+      "B. Creative Commons licenses restrict the use of educational content and do not allow for personal or commercial use.",
+      "C. Creative Commons licenses allow you to use, share, and modify content as long as you follow the terms specified by the license.",
+      "D. Creative Commons content can only be used if you pay a fee to the original creator for each use.",
     ],
-    correct: [1], // B
+    correct: [2],
   },
   {
     id: 42,
-    type: "true_false",
     question:
-      "Question 42 of 80: For each statement about digital citizenship, select True or False.",
-    statements: [
-      {
-        text: "Digital citizens engage in respectful online behavior.",
-        correct: "True",
-      },
-      {
-        text: "Digital citizenship only applies when using school-owned devices.",
-        correct: "False",
-      },
-      {
-        text: "Protecting personal data is an important aspect of digital citizenship.",
-        correct: "True",
-      },
+      "Juliana takes photos with her phone for the school yearbook. She takes more than 50 photographs each day. Juliana needs to use the quickest and most reliable method to back up the photos so she can delete them from her phone each day. What should Juliana do?",
+    type: "single",
+    options: [
+      "A. Download the photos to a USB flash drive.",
+      "B. Email the photos to her teacher.",
+      "C. Sync her phone to cloud storage.",
+      "D. Delete only the photos she doesn't want to use.",
     ],
+    correct: [2],
   },
   {
     id: 43,
-    type: "checkbox",
-    question:
-      "Question 43 of 80: Which two factors should you consider when choosing a strong password? (Choose 2.)",
+    question: "Which symptom is associated with prolonged computer use?",
+    type: "single",
     options: [
-      "A. Including your date of birth so it is easy to remember",
-      "B. Using a combination of uppercase letters, lowercase letters, numbers, and symbols",
-      "C. Making it at least 12 characters long",
-      "D. Using the word 'password' followed by a single digit",
+      "A. Increased back pain",
+      "B. Enhanced visual clarity",
+      "C. Improved muscle tone",
+      "D. Increased flexibility in joints",
     ],
-    correct: [1, 2], // B, C
+    correct: [0],
   },
   {
     id: 44,
-    type: "matching",
     question:
-      "Question 44 of 80: Match each malware type to its correct description.",
-    items: [
-      {
-        term: "Ransomware",
-        def: "Encrypts files and demands payment to restore access",
-      },
-      {
-        term: "Trojan",
-        def: "Disguises itself as legitimate software to deceive users",
-      },
-      {
-        term: "Worm",
-        def: "Replicates itself to spread to other devices without user intervention",
-      },
-      {
-        term: "Keylogger",
-        def: "Records keystrokes to steal sensitive credentials",
-      },
+      "Which two technologies do websites use to track visitors' online browsing habits? (Choose 2)",
+    type: "checkbox",
+    options: [
+      "A. GPS locations",
+      "B. First-party cookies",
+      "C. In private/incognito browsing",
+      "D. Third-party cookies / VPN tunneling",
     ],
+    correct: [1, 3],
   },
   {
     id: 45,
-    type: "single",
     question:
-      "Question 45 of 80: What type of network connection covers a large geographical area such as a city, country, or the globe?",
-    options: [
-      "A. LAN (Local Area Network)",
-      "B. WAN (Wide Area Network)",
-      "C. PAN (Personal Area Network)",
-      "D. WLAN (Wireless Local Area Network)",
+      "You are searching the web for information about how to grow your own vegetables. Determine which results are relevant to your search:",
+    type: "true_false",
+    statements: [
+      {
+        text: "A tabloid magazine article about celebrity gardens",
+        correct: "False",
+      },
+      {
+        text: "A how-to article published by a prestigious university",
+        correct: "True",
+      },
+      { text: "An ad for a popular gardening blog", correct: "False" },
     ],
-    correct: [1], // B
   },
   {
     id: 46,
-    type: "true_false",
-    question:
-      "Question 46 of 80: For each statement about cloud storage, select True or False.",
-    statements: [
-      {
-        text: "Cloud storage requires an active internet connection to sync changes.",
-        correct: "True",
-      },
-      {
-        text: "Files stored in the cloud cannot be shared with other users.",
-        correct: "False",
-      },
-      {
-        text: "Cloud storage provides access to files from multiple devices.",
-        correct: "True",
-      },
+    question: "Which backup method offers the best protection for your data?",
+    type: "single",
+    options: [
+      "A. Sending files to others through email",
+      "B. Deleting files you don't need anymore",
+      "C. Keeping files only on your computer's hard drive",
+      "D. Using both cloud storage and an external hard drive",
     ],
+    correct: [3],
   },
   {
     id: 47,
-    type: "checkbox",
     question:
-      "Question 47 of 80: Which two practices help prevent phishing attacks? (Choose 2.)",
-    options: [
-      "A. Clicking links in unexpected emails to verify sender identity",
-      "B. Checking the sender's email address domain for subtle misspellings",
-      "C. Verifying urgent requests through a trusted alternative contact channel",
-      "D. Disabling two-factor authentication on online accounts",
+      "For each statement about printing documents, select True or False:",
+    type: "true_false",
+    statements: [
+      {
+        text: "You can change document margins from the Print settings",
+        correct: "True",
+      },
+      {
+        text: "Duplex printing prints file content on both sides of the paper",
+        correct: "True",
+      },
+      {
+        text: "You can only change the paper size from the Page Setup options",
+        correct: "False",
+      },
+      {
+        text: "To preserve file formatting when electronically distributing a document, print the document to a PDF file",
+        correct: "True",
+      },
     ],
-    correct: [1, 2], // B, C
   },
   {
     id: 48,
-    type: "single",
-    question:
-      "Question 48 of 80: What is the main function of an operating system (OS)?",
-    options: [
-      "A. To create vector graphic illustrations",
-      "B. To manage hardware resources and provide a user interface",
-      "C. To host websites on the World Wide Web",
-      "D. To scan paper documents into digital format",
+    question: "Match each computer hardware element to its definition/image:",
+    type: "matching",
+    items: [
+      { term: "CPU", def: "Central processing unit" },
+      { term: "HDD", def: "Hard disk drive" },
+      {
+        term: "Motherboard",
+        def: "Main circuit board connecting hardware elements",
+      },
+      { term: "SSD", def: "Solid-state drive" },
     ],
-    correct: [1], // B
   },
   {
     id: 49,
-    type: "true_false",
     question:
-      "Question 49 of 80: Select True or False for each statement about public Wi-Fi networks.",
-    statements: [
-      {
-        text: "Public Wi-Fi networks without password protection are generally unencrypted.",
-        correct: "True",
-      },
-      {
-        text: "It is safe to perform online banking on public Wi-Fi without a VPN.",
-        correct: "False",
-      },
-      {
-        text: "Using a VPN encrypts your traffic on public Wi-Fi.",
-        correct: "True",
-      },
+      "You and a partner are collaborating to create a science report. You create a shared document and save it to the cloud to work on it at different times. What type of collaboration is this?",
+    type: "single",
+    options: [
+      "A. Synchronous",
+      "B. Offline",
+      "C. Simultaneous",
+      "D. Asynchronous",
     ],
+    correct: [3],
   },
   {
     id: 50,
-    type: "matching",
     question:
-      "Question 50 of 80: Match the cloud computing service type with its definition.",
-    items: [
-      {
-        term: "IaaS",
-        def: "Provides virtualized computing resources over the internet (e.g., servers, storage)",
-      },
-      {
-        term: "PaaS",
-        def: "Provides a framework for developers to build and deploy applications",
-      },
-      {
-        term: "SaaS",
-        def: "Delivers software applications over the internet on a subscription basis",
-      },
+      "You need to ensure that each student can talk about the project without being interrupted by other students during a videoconference. What should each student do?",
+    type: "single",
+    options: [
+      "A. Sign in early to verify that the audio and video technology works",
+      "B. Mute their microphone until called upon",
+      "C. Remain on camera throughout the conference",
+      "D. Introduce themselves by name when they speak",
     ],
+    correct: [1],
   },
   {
     id: 51,
-    type: "single",
     question:
-      "Question 51 of 80: Which web browser protocol indicates that communication with a website is encrypted?",
-    options: ["A. HTTP", "B. FTP", "C. HTTPS", "D. SMTP"],
-    correct: [2], // C
+      "You need to collaborate with your peers and share your class journal. Which digital platform is appropriate for this classroom activity?",
+    type: "single",
+    options: ["A. Google Docs", "B. Facebook", "C. Instagram", "D. Twitter"],
+    correct: [0],
   },
   {
     id: 52,
-    type: "checkbox",
-    question:
-      "Question 52 of 80: Which two items are considered input devices for a desktop computer? (Choose 2.)",
-    options: ["A. Keyboard", "B. Monitor", "C. Speaker", "D. Optical Mouse"],
-    correct: [0, 3], // A, D
+    question: "Digital Privacy - Select True or False for each statement:",
+    type: "true_false",
+    statements: [
+      {
+        text: "Updating your browser every six months wipes your digital footprint clean",
+        correct: "False",
+      },
+      {
+        text: "Anonymous online comments you post cannot be traced back to you if you use a web filter",
+        correct: "False",
+      },
+      {
+        text: "Potential employers can find images and messages posted on social media by applicants under the age of 18",
+        correct: "True",
+      },
+      {
+        text: "Companies with which you share personal data in exchange for apps and services are not allowed to give the data to anyone else",
+        correct: "False",
+      },
+    ],
   },
   {
     id: 53,
-    type: "true_false",
     question:
-      "Question 53 of 80: For each statement about Two-Factor Authentication (2FA), select True or False.",
-    statements: [
-      {
-        text: "2FA adds an extra layer of security beyond just a password.",
-        correct: "True",
-      },
-      {
-        text: "2FA completely removes the need for a strong password.",
-        correct: "False",
-      },
-      {
-        text: "An authenticator app code is an example of a second factor.",
-        correct: "True",
-      },
+      "What is the safest way for Maddie to protect herself from online predators when posting information about her vacation activities?",
+    type: "single",
+    options: [
+      "A. Checking in online when she goes places so her parents know where she is",
+      "B. Posting her vacation plans before she leaves so her friends know she is out of town",
+      "C. Setting her social media location map to 'public'",
+      "D. Waiting until she returns home to post vacation photos",
     ],
+    correct: [3],
   },
   {
     id: 54,
-    type: "single",
     question:
-      "Question 54 of 80: Which shortcut key combination is used to paste copied text in Windows?",
-    options: ["A. Ctrl + C", "B. Ctrl + X", "C. Ctrl + V", "D. Ctrl + Z"],
-    correct: [2], // C
+      "Which two connections can be used to connect a monitor to a computer? (Choose 2)",
+    type: "checkbox",
+    options: ["A. HDMI", "B. Ethernet", "C. USB-C", "D. PS/2"],
+    correct: [0, 2],
   },
   {
     id: 55,
-    type: "checkbox",
     question:
-      "Question 55 of 80: Which two options are benefits of using spreadsheets (e.g., Microsoft Excel, Google Sheets)? (Choose 2.)",
+      "You see a post on social media that contains an article about a current event. Which factor is most important to evaluate its credibility?",
+    type: "single",
     options: [
-      "A. Automated calculation of mathematical formulas",
-      "B. High-resolution 3D video editing capability",
-      "C. Data visualization through charts and graphs",
-      "D. Automatic web domain registration",
+      "A. The number of pictures included in the article",
+      "B. The number of likes and shares the article has received",
+      "C. The length of the article and the details it covers",
+      "D. The news outlet's reputation and trustworthiness",
     ],
-    correct: [0, 2], // A, C
+    correct: [3],
   },
   {
     id: 56,
-    type: "matching",
     question:
-      "Question 56 of 80: Match the file extension with its common file type.",
-    items: [
-      { term: ".pdf", def: "Portable Document Format file" },
-      { term: ".png", def: "Raster image file with transparency support" },
-      { term: ".mp4", def: "Digital video container format" },
-      { term: ".docx", def: "Microsoft Word document" },
+      "When assessing an online article's reliability, which is a critical step?",
+    type: "single",
+    options: [
+      "A. Verifying that the article includes multiple images",
+      "B. Counting the article's words to determine depth of content",
+      "C. Reviewing the article's publication date and checking for recent updates",
+      "D. Confirming the author's popularity on social media",
     ],
+    correct: [2],
   },
   {
     id: 57,
-    type: "true_false",
     question:
-      "Question 57 of 80: Select Yes or No for each statement regarding cyberbullying.",
-    statements: [
-      {
-        text: "Cyberbullying can occur via text messages, social media, or gaming apps.",
-        correct: "True",
-      },
-      {
-        text: "Ignoring cyberbullying always stops the perpetrator permanently.",
-        correct: "False",
-      },
-      {
-        text: "Saving evidence (screenshots) is recommended when reporting cyberbullying.",
-        correct: "True",
-      },
+      "Which three guidelines should you follow to ensure the security of your passwords? (Choose 3)",
+    type: "checkbox",
+    options: [
+      "A. Use the longest password or passphrase permissible by each system",
+      "B. Use passwords that are based on private personal information",
+      "C. Use multi-factor authentication when available",
+      "D. Use words that can be found in a dictionary",
+      "E. Record them in a notebook you carry at all times",
+      "F. Use a different password for each account",
     ],
+    correct: [0, 2, 5],
   },
   {
     id: 58,
-    type: "single",
     question:
-      "Question 58 of 80: What does the term 'Bandwidth' refer to in computer networking?",
-    options: [
-      "A. The physical length of a network cable",
-      "B. The maximum rate of data transfer across a given path in a given time",
-      "C. The total storage capacity of a hard drive",
-      "D. The speed of the CPU processor in GHz",
+      "For each statement about Creative Commons, select True or False:",
+    type: "true_false",
+    statements: [
+      {
+        text: "Allows creators to grant licenses to only specific people",
+        correct: "False",
+      },
+      {
+        text: "Helps facilitate the sharing and discovery of creative works on the web",
+        correct: "True",
+      },
+      {
+        text: "Provides tools that allow creators to dedicate their works to the public domain",
+        correct: "True",
+      },
     ],
-    correct: [1], // B
   },
   {
     id: 59,
-    type: "checkbox",
-    question:
-      "Question 59 of 80: Which two activities require an internet connection? (Choose 2.)",
+    question: "Which option is the best way to create a secure password?",
+    type: "single",
     options: [
-      "A. Streaming a live webinar",
-      "B. Editing a local text document in Notepad",
-      "C. Sending an email via webmail",
-      "D. Calculating basic formulas in an offline calculator app",
+      "A. Use your name and birthday",
+      "B. Use your favorite movie title",
+      "C. Use a mix of letters, numbers, and symbols",
+      "D. Use something easy to remember, like '12345' or 'p@ssword'",
     ],
-    correct: [0, 2], // A, C
+    correct: [2],
   },
   {
     id: 60,
-    type: "true_false",
-    question:
-      "Question 60 of 80: For each statement about software updates, select True or False.",
-    statements: [
-      {
-        text: "Software updates often contain security patches that protect against vulnerabilities.",
-        correct: "True",
-      },
-      {
-        text: "Updates should never be installed because they slow down devices.",
-        correct: "False",
-      },
-      {
-        text: "Enabling automatic updates helps keep your system secure.",
-        correct: "True",
-      },
+    question: "Which statement about web-based applications is correct?",
+    type: "single",
+    options: [
+      "A. Web applications process information locally on your computer",
+      "B. The web version of a desktop application has all the same features as the desktop version",
+      "C. Before you can use a web application, you must install it on your computer",
+      "D. You must have an internet connection to use a web application",
     ],
+    correct: [3],
   },
   {
     id: 61,
-    type: "single",
-    question: "Question 61 of 80: What is the main purpose of an IP address?",
-    options: [
-      "A. To identify a physical serial number on a motherboard",
-      "B. To uniquely identify a device on a local network or the internet",
-      "C. To store digital certificates securely",
-      "D. To measure battery efficiency of portable hardware",
-    ],
-    correct: [1], // B
-  },
-  {
-    id: 62,
-    type: "matching",
-    question:
-      "Question 62 of 80: Match each network device to its primary function.",
-    items: [
-      {
-        term: "Router",
-        def: "Forwards data packets between different computer networks",
-      },
-      {
-        term: "Switch",
-        def: "Connects devices together within a single Local Area Network (LAN)",
-      },
-      {
-        term: "Modem",
-        def: "Modulates/demodulates signals to connect to an Internet Service Provider (ISP)",
-      },
-    ],
-  },
-  {
-    id: 63,
-    type: "checkbox",
-    question:
-      "Question 63 of 80: Which two methods help protect your mobile device from unauthorized physical access? (Choose 2.)",
-    options: [
-      "A. Setting up a PIN or passcode lock",
-      "B. Enabling biometric authentication (like fingerprint or face ID)",
-      "C. Turning off cellular data",
-      "D. Setting display brightness to maximum",
-    ],
-    correct: [0, 1], // A, B
-  },
-  {
-    id: 64,
+    question: "For each statement about copyright, select True or False:",
     type: "true_false",
-    question:
-      "Question 64 of 80: For each statement about copyright laws, select True or False.",
     statements: [
       {
-        text: "Copyright protection is automatic upon creation of an original work in tangible form.",
-        correct: "True",
-      },
-      {
-        text: "You can freely sell copyrighted music as long as you bought a personal copy.",
+        text: "Work must be registered with the copyright office to be protected by copyright",
         correct: "False",
       },
       {
-        text: "Fair Use allows limited use of copyrighted material without permission for purposes like criticism or teaching.",
+        text: "Copyright laws protect the right to reproduce the copyrighted work",
+        correct: "True",
+      },
+      {
+        text: "Copyright laws protect only works of art, such as paintings and sculptures",
+        correct: "False",
+      },
+    ],
+  },
+  {
+    id: 62,
+    question:
+      "Which information can you locate on a webpage by using the browser's Find feature?",
+    type: "single",
+    options: [
+      "A. A list of secondary topics related to your primary research topic",
+      "B. The number of times the article mentions a specific topic",
+      "C. The answer to a specific question related to the article topic",
+      "D. Related comments on social media sites",
+    ],
+    correct: [1],
+  },
+  {
+    id: 63,
+    question:
+      "Identify web pages likely to contain accurate and unbiased information for research (Yes/No):",
+    type: "true_false",
+    statements: [
+      { text: "The webpage has misspelled words", correct: "False" },
+      { text: "The webpage text is written objectively", correct: "True" },
+      { text: "The webpage includes a list of references", correct: "True" },
+    ],
+  },
+  {
+    id: 64,
+    question:
+      "Identify examples of good netiquette in an office work environment (Yes/No):",
+    type: "true_false",
+    statements: [
+      {
+        text: "Copy your coworkers on all email messages you send to keep them in the loop",
+        correct: "False",
+      },
+      {
+        text: "Share large files from a cloud storage location instead of attaching them to email messages",
+        correct: "True",
+      },
+      {
+        text: "Apply the same standards and values to online interactions that you do to face-to-face interactions",
         correct: "True",
       },
     ],
   },
   {
     id: 65,
-    type: "single",
     question:
-      "Question 65 of 80: Which software application type is best suited for building complex relational databases?",
+      "You are making suggestions, corrections, and comments on a classmate's research paper. What process are you performing?",
+    type: "single",
     options: [
-      "A. Microsoft Access",
-      "B. Microsoft Paint",
-      "C. Microsoft Word",
-      "D. Microsoft Notepad",
+      "A. Coauthoring",
+      "B. Attributing",
+      "C. Peer reviewing",
+      "D. Fact checking",
     ],
-    correct: [0], // A
+    correct: [2],
   },
   {
     id: 66,
-    type: "checkbox",
-    question:
-      "Question 66 of 80: Which two factors are common indicators of a suspicious email? (Choose 2.)",
+    question: "What is a benefit of 'in private' or 'incognito' browsing?",
+    type: "single",
     options: [
-      "A. Generic greetings like 'Dear Customer'",
-      "B. Urgent threats demanding immediate action or payment",
-      "C. Emails originating from official domain names matching company websites",
-      "D. Emails containing proper grammar and expected attachments",
+      "A. Your web browser remembers the files you download",
+      "B. Digital fingerprinting can't be used to track your browser activities",
+      "C. Your web browser doesn't retain cookies",
+      "D. Your web browser blocks advertisements",
     ],
-    correct: [0, 1], // A, B
+    correct: [2],
   },
   {
     id: 67,
-    type: "true_false",
     question:
-      "Question 67 of 80: Select Yes or No for each practice related to digital health and ergonomics.",
+      "You need to add artwork to a presentation and do NOT have time to get permission. Can you legally use it without permission? (Yes/No):",
+    type: "true_false",
     statements: [
+      { text: "The artist is your friend", correct: "False" },
+      { text: "The artwork is protected by copyright", correct: "False" },
       {
-        text: "Positioning the monitor at eye level reduces neck strain.",
-        correct: "True",
-      },
-      {
-        text: "Sitting in an unsupportive chair with poor posture improves concentration.",
-        correct: "False",
-      },
-      {
-        text: "Taking regular short breaks reduces eye strain and physical fatigue.",
+        text: "The copyright owner dedicated the artwork to the public domain",
         correct: "True",
       },
     ],
   },
   {
     id: 68,
-    type: "matching",
     question:
-      "Question 68 of 80: Match the social media action with its appropriate privacy consideration.",
-    items: [
+      "For each statement about citation practices, select True or False:",
+    type: "true_false",
+    statements: [
       {
-        term: "Posting real-time location tags",
-        def: "Can reveal when your home is empty or track your movements",
+        text: "If you quote directly from a speech, you must cite the source",
+        correct: "True",
       },
       {
-        term: "Setting profile to Public",
-        def: "Allows anyone on the internet to view shared posts and media",
+        text: "If you summarize someone else's work, you must cite the source",
+        correct: "True",
       },
       {
-        term: "Tagging friends in photos",
-        def: "Exposes others' personal information without explicit consent",
+        text: "If you paraphrase someone else's work, you must cite the source",
+        correct: "True",
+      },
+      {
+        text: "You should place quotation marks around phrases that you quote from someone else's work",
+        correct: "True",
       },
     ],
   },
   {
     id: 69,
-    type: "single",
     question:
-      "Question 69 of 80: What is the primary role of a Central Processing Unit (CPU)?",
+      "Your name is Sam Grey. Which file name should you use to clearly identify the author, maintain readability, and ensure cross-platform compatibility?",
+    type: "single",
     options: [
-      "A. To display visuals on screen",
-      "B. To execute instructions and perform calculations",
-      "C. To supply electrical power to components",
-      "D. To store user files permanently",
+      "A. samgreyprojectoneversionthree04/15/2025.docx",
+      "B. Sam Grey Project1-version3.docx",
+      "C. SamGrey project#1>v3.docx",
+      "D. SamGreyProject1v3.docx",
     ],
-    correct: [1], // B
+    correct: [3],
   },
   {
     id: 70,
-    type: "checkbox",
     question:
-      "Question 70 of 80: Which two benefits are associated with automated cloud backups? (Choose 2.)",
-    options: [
-      "A. Protection of data against local hardware failure",
-      "B. Automatic hardware upgrades for physical desktop PCs",
-      "C. Ability to recover lost or corrupted files from remote servers",
-      "D. Elimination of the need for an internet connection",
+      "Select Yes/No for physical health risks associated with prolonged computer use:",
+    type: "true_false",
+    statements: [
+      { text: "Discomfort in the neck", correct: "True" },
+      { text: "Elevated blood pressure", correct: "False" },
+      { text: "Eye strain", correct: "True" },
+      { text: "Frequent headaches", correct: "True" },
     ],
-    correct: [0, 2], // A, C
   },
   {
     id: 71,
-    type: "true_false",
     question:
-      "Question 71 of 80: Select True or False for each statement about web cookies.",
-    statements: [
-      {
-        text: "Cookies are small text files stored by websites on your computer.",
-        correct: "True",
-      },
-      {
-        text: "All web cookies are dangerous viruses that destroy computer files.",
-        correct: "False",
-      },
-      {
-        text: "Cookies can store session information and user preferences.",
-        correct: "True",
-      },
+      "Which two methods should you use to avoid computer-related injuries? (Choose 2)",
+    type: "checkbox",
+    options: [
+      "A. Use a mouse with a switch to adjust the DPI when needed",
+      "B. Upgrade to a high-end graphics card to reduce eye strain",
+      "C. Use an ergonomic keyboard so your wrists are in a more natural position",
+      "D. Take frequent short breaks during which you walk around",
     ],
+    correct: [2, 3],
   },
   {
     id: 72,
-    type: "single",
     question:
-      "Question 72 of 80: What type of software license allows users to try software for free for a limited trial period before purchasing?",
-    options: ["A. Shareware", "B. Freeware", "C. Open Source", "D. Commercial"],
-    correct: [0], // A
+      "Which hardware component does a desktop computer use for long-term data storage?",
+    type: "single",
+    options: [
+      "A. Central processing unit (CPU)",
+      "B. Motherboard",
+      "C. USB flash drive",
+      "D. Hard disk drive",
+    ],
+    correct: [3],
   },
   {
     id: 73,
-    type: "checkbox",
-    question:
-      "Question 73 of 80: Which two tools are typically found in word processing software? (Choose 2.)",
-    options: [
-      "A. Word count tracker",
-      "B. Network packet sniffer",
-      "C. Spell check and grammar repair",
-      "D. SQL database server setup",
+    question: "Identify features that protect digital privacy (Yes/No):",
+    type: "true_false",
+    statements: [
+      { text: "Disk defragmenter", correct: "False" },
+      { text: "Password-management program", correct: "True" },
+      { text: "Anti-tracking browser extension", correct: "True" },
     ],
-    correct: [0, 2], // A, C
   },
   {
     id: 74,
-    type: "matching",
-    question: "Question 74 of 80: Match each web term with its definition.",
-    items: [
+    question:
+      "For each statement about differences between internet and intranet, select True or False:",
+    type: "true_false",
+    statements: [
       {
-        term: "URL",
-        def: "The web address used to locate a specific resource on the internet",
+        text: "The internet is privately owned by a consortium of companies",
+        correct: "False",
       },
       {
-        term: "Domain Name",
-        def: "The human-readable text name mapped to an IP address (e.g., google.com)",
+        text: "An intranet connection is more secure than an internet connection",
+        correct: "True",
       },
       {
-        term: "Hyperlink",
-        def: "An clickable element that navigates to another page or section",
+        text: "An intranet has an unlimited number of users and can be accessed by anyone",
+        correct: "False",
       },
     ],
   },
   {
     id: 75,
-    type: "true_false",
     question:
-      "Question 75 of 80: For each statement about digital footprints, select True or False.",
+      "For each statement about creating basic presentations, select True or False:",
+    type: "true_false",
     statements: [
       {
-        text: "Your active digital footprint includes posts, comments, and photos you share intentionally.",
+        text: "You should minimize text content in presentations",
         correct: "True",
       },
       {
-        text: "A passive digital footprint is created without direct user intent, such as IP tracking.",
+        text: "You can only create Microsoft PowerPoint presentations on Windows computers",
+        correct: "False",
+      },
+      {
+        text: "You can access Apple Keynote presentations from Windows computers through iCloud",
         correct: "True",
       },
       {
-        text: "Once digital information is uploaded, it is easily and permanently erased across all servers.",
+        text: "You should maintain a low contrast between the text and background colors of presentations",
         correct: "False",
       },
     ],
   },
   {
     id: 76,
-    type: "single",
     question:
-      "Question 76 of 80: Which technology utilizes short-range radio signals to connect devices like headphones and smartphones wirelessly?",
-    options: ["A. Bluetooth", "B. Ethernet", "C. Satellite", "D. Fiber Optic"],
-    correct: [0], // A
+      "For each statement about culture and communication, select True or False:",
+    type: "true_false",
+    statements: [
+      {
+        text: "People with similar heritages have the same beliefs and priorities",
+        correct: "False",
+      },
+      {
+        text: "Respectful language conveys prejudices such as stereotypes, expectations and limitations",
+        correct: "False",
+      },
+      {
+        text: "Culture is a constantly changing concept that may not completely reflect someone's identity",
+        correct: "True",
+      },
+    ],
   },
   {
     id: 77,
-    type: "checkbox",
     question:
-      "Question 77 of 80: Which two procedures reduce energy consumption for desktop and laptop computers? (Choose 2.)",
-    options: [
-      "A. Enabling Sleep mode when idle",
-      "B. Setting display screen timeout to short intervals",
-      "C. Leaving screen brightness set to maximum permanently",
-      "D. Running complex background processes constantly",
+      "For each item, select True if it is a valid Google search filter option, and False if it is not:",
+    type: "true_false",
+    statements: [
+      { text: "Language", correct: "True" },
+      { text: "File type", correct: "True" },
+      { text: "Color", correct: "False" },
+      { text: "Dates", correct: "True" },
     ],
-    correct: [0, 1], // A, B
   },
   {
     id: 78,
-    type: "true_false",
     question:
-      "Question 78 of 80: Select Yes or No for each rule of proper netiquette.",
-    statements: [
-      {
-        text: "Typing messages in ALL CAPS is considered shouting and should be avoided.",
-        correct: "True",
-      },
-      {
-        text: "Replying instantly in anger without reviewing your text is recommended.",
-        correct: "False",
-      },
-      {
-        text: "Respecting others' privacy when forwarding emails or media.",
-        correct: "True",
-      },
+      "For which two reasons should you reference your source material in a research paper? (Choose 2)",
+    type: "checkbox",
+    options: [
+      "A. It allows readers to find the original information source",
+      "B. It establishes the research paper as your original work",
+      "C. It gives credit to the people who did the research you're referencing",
+      "D. It provides financial payment to the people who performed the research",
     ],
+    correct: [0, 2],
   },
   {
     id: 79,
-    type: "matching",
-    question:
-      "Question 79 of 80: Match the software category to its intended function.",
-    items: [
-      {
-        term: "Antivirus",
-        def: "Detects, prevents, and removes malicious software",
-      },
-      {
-        term: "Web Browser",
-        def: "Allows users to access and view webpages on the internet",
-      },
-      { term: "Media Player", def: "Plays audio and video multimedia files" },
+    question: "What is a computer virus?",
+    type: "single",
+    options: [
+      "A. A program that is designed to look harmless but allows unauthorized access",
+      "B. Content that tricks you into revealing account codes and passwords",
+      "C. A program that installs itself without knowledge and tracks usage",
+      "D. A program that can copy itself and spread to other computers",
     ],
+    correct: [3],
   },
   {
     id: 80,
+    question: "Which practice helps protect your computer and personal data?",
     type: "single",
-    question:
-      "Question 80 of 80: What is the primary advantage of storing files on a Solid-State Drive (SSD) compared to a traditional Hard Disk Drive (HDD)?",
     options: [
-      "A. Faster read and write data transfer speeds",
-      "B. Lower total cost per gigabyte on large mechanical drives",
-      "C. Complete immunity to malware infections",
-      "D. Higher capacity for physical platter spinning",
+      "A. Sharing your password with trusted friends",
+      "B. Installing and updating antivirus software regularly",
+      "C. Ignoring software update notifications",
+      "D. Downloading files from unknown websites",
     ],
-    correct: [0], // A
+    correct: [1],
   },
-  {
-    id: 81,
-    type: "single",
-    question:
-      "Question 81 of 114: Which option best describes the purpose of a Domain Name System (DNS)?",
-    options: [
-      "A. Translates human-readable domain names into IP addresses",
-      "B. Secures web servers against unauthorized database modifications",
-      "C. Increases connection speed across local area network cables",
-      "D. Compresses image files before sending via email attachment",
-    ],
-    correct: [0], // A
-  },
-  {
-    id: 82,
-    type: "true_false",
-    question:
-      "Question 82 of 114: For each statement about digital file formats, select True or False.",
-    statements: [
-      {
-        text: "Vector images can be scaled infinitely without losing quality.",
-        correct: "True",
-      },
-      {
-        text: "Raster images (like JPEG) lose clarity when enlarged significantly.",
-        correct: "True",
-      },
-      {
-        text: "PDF files require the original program that created them to be viewed.",
-        correct: "False",
-      },
-    ],
-  },
-  {
-    id: 83,
-    type: "checkbox",
-    question:
-      "Question 83 of 114: Which two methods help secure a home Wi-Fi network? (Choose 2.)",
-    options: [
-      "A. Changing the default administrator password on the router",
-      "B. Enabling WPA2 or WPA3 encryption",
-      "C. Leaving the router broadcast name as default without a password",
-      "D. Disabling the router firewall",
-    ],
-    correct: [0, 1], // A, B
-  },
-  {
-    id: 84,
-    type: "matching",
-    question:
-      "Question 84 of 84: Match the computer hardware term with its primary role.",
-    items: [
-      {
-        term: "RAM",
-        def: "Temporary high-speed memory for active programs and tasks",
-      },
-      {
-        term: "GPU",
-        def: "Specialized processor designed to render graphics and visual data",
-      },
-      {
-        term: "Motherboard",
-        def: "Main circuit board connecting all internal hardware components",
-      },
-    ],
-  },
-  {
-    id: 85,
-    type: "single",
-    question:
-      "Question 85 of 114: What is the primary function of a web search engine?",
-    options: [
-      "A. Indexing webpages to allow users to find information using keywords",
-      "B. Hosting domain registration records for web developers",
-      "C. Scanning downloaded files for active malware infections",
-      "D. Generating digital certificates for secure web traffic",
-    ],
-    correct: [0], // A
-  },
-  {
-    id: 86,
-    type: "true_false",
-    question:
-      "Question 86 of 114: Select Yes or No for each statement regarding online copyright.",
-    statements: [
-      {
-        text: "Content in the public domain can be used without permission.",
-        correct: "True",
-      },
-      {
-        text: "Attributing an author completely removes copyright restrictions.",
-        correct: "False",
-      },
-      {
-        text: "Royalty-free media can always be resold as your own product.",
-        correct: "False",
-      },
-    ],
-  },
-  {
-    id: 87,
-    type: "checkbox",
-    question:
-      "Question 87 of 114: Which two features are common benefits of video conferencing platforms? (Choose 2.)",
-    options: [
-      "A. Real-time screen sharing capability",
-      "B. Automatic hardware power replacement",
-      "C. Integrated text chat and messaging",
-      "D. Instant physical document printing",
-    ],
-    correct: [0, 2], // A, C
-  },
-  {
-    id: 88,
-    type: "single",
-    question:
-      "Question 88 of 114: Which shortcut combination locks your Windows screen immediately?",
-    options: [
-      "A. Windows Key + L",
-      "B. Ctrl + Alt + Delete",
-      "C. Windows Key + D",
-      "D. Alt + Tab",
-    ],
-    correct: [0], // A
-  },
-  {
-    id: 89,
-    type: "true_false",
-    question:
-      "Question 89 of 114: For each statement about email communication, select True or False.",
-    statements: [
-      {
-        text: "Spam emails are unsolicited commercial or malicious messages.",
-        correct: "True",
-      },
-      {
-        text: "Opening email attachments from unknown senders is completely safe.",
-        correct: "False",
-      },
-      {
-        text: "Phishing emails attempt to steal sensitive personal information.",
-        correct: "True",
-      },
-    ],
-  },
-  {
-    id: 90,
-    type: "matching",
-    question:
-      "Question 90 of 114: Match each online risk to its appropriate defense mechanism.",
-    items: [
-      {
-        term: "Malware Infection",
-        def: "Keep antivirus software updated and active",
-      },
-      {
-        term: "Credential Theft",
-        def: "Enable Multi-Factor Authentication (MFA)",
-      },
-      {
-        term: "Data Loss",
-        def: "Maintain regular automated cloud or external backups",
-      },
-    ],
-  },
-  {
-    id: 91,
-    type: "single",
-    question:
-      "Question 91 of 114: Which protocol is used for sending outgoing email messages across networks?",
-    options: ["A. SMTP", "B. IMAP", "C. POP3", "D. FTP"],
-    correct: [0], // A
-  },
-  {
-    id: 92,
-    type: "checkbox",
-    question:
-      "Question 92 of 114: Which two options describe strong digital security habits? (Choose 2.)",
-    options: [
-      "A. Using unique passwords for every online account",
-      "B. Sharing account credentials only with close trusted friends",
-      "C. Regularly updating installed software and operating systems",
-      "D. Disabling system firewalls during web browsing",
-    ],
-    correct: [0, 2], // A, C
-  },
-  {
-    id: 93,
-    type: "true_false",
-    question:
-      "Question 93 of 114: Select True or False for each statement about mobile device management.",
-    statements: [
-      {
-        text: "Remote wipe features allow deleting data from a lost phone.",
-        correct: "True",
-      },
-      {
-        text: "App permissions should be reviewed to protect personal data.",
-        correct: "True",
-      },
-      {
-        text: "Installing apps from unverified third-party sources is completely safe.",
-        correct: "False",
-      },
-    ],
-  },
-  {
-    id: 94,
-    type: "single",
-    question:
-      "Question 94 of 114: What type of storage media uses optical laser technology to read and write data?",
-    options: [
-      "A. DVD-ROM",
-      "B. USB Flash Memory",
-      "C. Solid-State Drive",
-      "D. Hard Disk Drive",
-    ],
-    correct: [0], // A
-  },
-  {
-    id: 95,
-    type: "matching",
-    question:
-      "Question 95 of 114: Match the software category with its typical user task.",
-    items: [
-      {
-        term: "Spreadsheet",
-        def: "Analyzing financial data and calculating budgets",
-      },
-      { term: "Presentation", def: "Creating slide shows for public speaking" },
-      {
-        term: "Word Processor",
-        def: "Drafting essays, formal letters, and reports",
-      },
-    ],
-  },
-  {
-    id: 96,
-    type: "checkbox",
-    question:
-      "Question 96 of 114: Which two actions should you perform if you suspect your account has been compromised? (Choose 2.)",
-    options: [
-      "A. Change your account password immediately",
-      "B. Ignore the suspicious activity for a few weeks",
-      "C. Notify the service platform support team",
-      "D. Post your original password publicly to ask for help",
-    ],
-    correct: [0, 2], // A, C
-  },
-  {
-    id: 97,
-    type: "true_false",
-    question:
-      "Question 97 of 114: For each statement about artificial intelligence, select True or False.",
-    statements: [
-      {
-        text: "AI models require training datasets to learn patterns.",
-        correct: "True",
-      },
-      {
-        text: "AI systems are completely incapable of producing errors or bias.",
-        correct: "False",
-      },
-      {
-        text: "Machine Learning is a subfield of Artificial Intelligence.",
-        correct: "True",
-      },
-    ],
-  },
-  {
-    id: 98,
-    type: "single",
-    question:
-      "Question 98 of 114: Which peripheral device is primarily used to convert hard-copy paper documents into digital image files?",
-    options: ["A. Scanner", "B. Plotter", "C. Projector", "D. Monitor"],
-    correct: [0], // A
-  },
-  {
-    id: 99,
-    type: "checkbox",
-    question:
-      "Question 99 of 114: Which two factors contribute to positive digital identity management? (Choose 2.)",
-    options: [
-      "A. Maintaining professional profile information on workplace platforms",
-      "B. Reviewing privacy settings on social media accounts regularly",
-      "C. Using abusive language in online forum discussions",
-      "D. Publishing sensitive personal contact details publicly",
-    ],
-    correct: [0, 1], // A, B
-  },
-  {
-    id: 100,
-    type: "true_false",
-    question:
-      "Question 100 of 114: Select Yes or No for each statement about web navigation.",
-    statements: [
-      {
-        text: "The browser 'Refresh' button reloads the current page content.",
-        correct: "True",
-      },
-      {
-        text: "Hyperlinks can only link to pages on the exact same website domain.",
-        correct: "False",
-      },
-      {
-        text: "Browser bookmarks save links for quick future access.",
-        correct: "True",
-      },
-    ],
-  },
-  {
-    id: 101,
-    type: "single",
-    question:
-      "Question 101 of 114: What is the main purpose of an Acceptable Use Policy (AUP)?",
-    options: [
-      "A. To outline rules and guidelines for using network infrastructure and services",
-      "B. To calculate automated tax refunds for corporate employees",
-      "C. To upgrade computer hardware automatically every year",
-      "D. To provide free high-speed internet access to all users",
-    ],
-    correct: [0], // A
-  },
-  {
-    id: 102,
-    type: "matching",
-    question:
-      "Question 102 of 114: Match the shortcut key with its standard function in Windows.",
-    items: [
-      { term: "Ctrl + Z", def: "Undo the previous action" },
-      { term: "Ctrl + A", def: "Select all items or text on screen" },
-      { term: "Ctrl + F", def: "Open find search box" },
-    ],
-  },
-  {
-    id: 103,
-    type: "checkbox",
-    question:
-      "Question 103 of 114: Which two items are key principles of Netiquette? (Choose 2.)",
-    options: [
-      "A. Respecting others' time and bandwidth",
-      "B. Flaming or insults in public online forums",
-      "C. Sharing accurate and verified information",
-      "D. Using ALL CAPS to emphasize every single word",
-    ],
-    correct: [0, 2], // A, C
-  },
-  {
-    id: 104,
-    type: "true_false",
-    question:
-      "Question 104 of 114: For each statement about data backup, select True or False.",
-    statements: [
-      {
-        text: "The 3-2-1 backup strategy recommends 3 copies on 2 different media with 1 offsite.",
-        correct: "True",
-      },
-      {
-        text: "Cloud storage is not considered an offsite backup option.",
-        correct: "False",
-      },
-      {
-        text: "Backing up files protects against data loss from hardware damage.",
-        correct: "True",
-      },
-    ],
-  },
-  {
-    id: 105,
-    type: "single",
-    question:
-      "Question 105 of 114: Which unit is used to measure computer processor clock speed?",
-    options: [
-      "A. Gigahertz (GHz)",
-      "B. Gigabytes (GB)",
-      "C. Megabits per second (Mbps)",
-      "D. Pixels (px)",
-    ],
-    correct: [0], // A
-  },
-  {
-    id: 106,
-    type: "checkbox",
-    question:
-      "Question 106 of 114: Which two settings help improve battery life on portable laptops? (Choose 2.)",
-    options: [
-      "A. Reducing screen brightness level",
-      "B. Disabling unused wireless connections (like Bluetooth)",
-      "C. Setting screen to never turn off",
-      "D. Running multiple high-end games simultaneously",
-    ],
-    correct: [0, 1], // A, B
-  },
-  {
-    id: 107,
-    type: "true_false",
-    question:
-      "Question 107 of 114: Select True or False for each statement about Open Source vs Proprietary Software.",
-    statements: [
-      {
-        text: "Proprietary software code is hidden and restricted by the vendor.",
-        correct: "True",
-      },
-      {
-        text: "Open source software allows users to inspect and modify source code.",
-        correct: "True",
-      },
-      {
-        text: "Proprietary software is always distributed completely free of charge.",
-        correct: "False",
-      },
-    ],
-  },
-  {
-    id: 108,
-    type: "matching",
-    question:
-      "Question 108 of 114: Match the measurement unit to its corresponding metric.",
-    items: [
-      { term: "Mbps", def: "Network bandwidth data transfer speed" },
-      { term: "Terabyte (TB)", def: "Data storage capacity" },
-      {
-        term: "Resolution (Pixels)",
-        def: "Screen display sharpness and clarity",
-      },
-    ],
-  },
-  {
-    id: 109,
-    type: "single",
-    question:
-      "Question 109 of 114: What is the main security risk of using outdated web browsers?",
-    options: [
-      "A. Vulnerability to unpatched security exploits and security flaws",
-      "B. Automatic deletion of all locally stored desktop files",
-      "C. Inability to type non-English characters",
-      "D. Permanent damage to physical monitor pixels",
-    ],
-    correct: [0], // A
-  },
-  {
-    id: 110,
-    type: "checkbox",
-    question:
-      "Question 110 of 114: Which two practices assist in effective online research? (Choose 2.)",
-    options: [
-      "A. Verifying information across multiple reliable sources",
-      "B. Evaluating the author's credibility and publication date",
-      "C. Relying entirely on the first search result without checking facts",
-      "D. Accepting opinion blogs as official scientific facts",
-    ],
-    correct: [0, 1], // A, B
-  },
-  {
-    id: 111,
-    type: "true_false",
-    question:
-      "Question 111 of 114: For each statement about cloud computing models, select True or False.",
-    statements: [
-      {
-        text: "SaaS provides access to complete web-based software applications.",
-        correct: "True",
-      },
-      {
-        text: "Cloud services reduce the need for local hardware storage maintenance.",
-        correct: "True",
-      },
-      {
-        text: "Cloud computing can only be used on Windows desktop systems.",
-        correct: "False",
-      },
-    ],
-  },
-  {
-    id: 112,
-    type: "single",
-    question:
-      "Question 112 of 114: What type of malware locks access to your computer system or files until a sum of money is paid?",
-    options: ["A. Ransomware", "B. Adware", "C. Spyware", "D. Rootkit"],
-    correct: [0], // A
-  },
-  {
-    id: 113,
-    type: "checkbox",
-    question:
-      "Question 113 of 114: Which two methods help prevent repetitive strain injuries (RSI) when working at a computer? (Choose 2.)",
-    options: [
-      "A. Using ergonomic keyboards and wrist supports",
-      "B. Maintaining proper posture with feet flat on the floor",
-      "C. Working continuously for 8 hours without breaks",
-      "D. Bending wrists sharply upward while typing",
-    ],
-    correct: [0, 1], // A, B
-  },
-  {
-    id: 114,
-    type: "true_false",
-    question:
-      "Question 114 of 114: Select True or False for each statement regarding 2-Factor Authentication (2FA).",
-    statements: [
-      {
-        text: "2FA requires two separate pieces of evidence to verify identity.",
-        correct: "True",
-      },
-      {
-        text: "SMS verification codes are commonly used as a second factor.",
-        correct: "True",
-      },
-      {
-        text: "2FA makes accounts less secure than using a single password.",
-        correct: "False",
-      },
-    ],
-  },
+  
 ];
