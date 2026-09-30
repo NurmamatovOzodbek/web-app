@@ -1173,5 +1173,528 @@ const questions = [
     ],
     correct: [1],
   },
-  
+  {
+    id: 81,
+    question: "What is the main contributor to your digital identity?",
+    options: [
+      "A. Data stored on your computer that allows you to log in to a secure website through a secure account",
+      "B. Documents stored on your computer",
+      "C. For each site or service you use, your username and password",
+      "D. The information you post on social networking sites, blogs, and forums",
+    ],
+    answer: "D",
+    type: "single_choice",
+  },
+  {
+    id: 82,
+    question:
+      "For each statement, select Yes if it is a warning that an email is a phishing message, or No if it is not.",
+    statements: [
+      { text: "The message includes a threat", answer: "Yes" },
+      { text: "The message uses a generic greeting", answer: "Yes" },
+      { text: "The message requests your private information", answer: "Yes" },
+    ],
+    type: "true_false",
+  },
+  {
+    id: 83,
+    question:
+      "You and a friend are collaborating on a web comic. Move each term from the list on the left to its activity on the right.",
+    mappings: [
+      {
+        activity:
+          "You and your friend conduct a video chat to brainstorm ideas for the story.",
+        term: "Synchronous Collaboration",
+      },
+      {
+        activity:
+          "On your own, you write the story, while your friend draws the artwork. While you work, you send emails with questions and updates",
+        term: "Asynchronous Collaboration",
+      },
+      {
+        activity:
+          "You and your friend both post the finished comic to your social media accounts, and tag each other in the post",
+        term: "Coauthoring",
+      },
+      {
+        activity:
+          "Enables machines to process and comprehend text or speech, helping communication between humans and computers in a more instinctive way.",
+        term: "Natural Language Processing",
+      },
+    ],
+    type: "matching",
+  },
+  {
+    id: 84,
+    question:
+      "You are writing a research paper. You need to add references to your work. For each scenario, select Yes if you must add a reference or No if you do not.",
+    statements: [
+      { text: "You use an idea from a news article", answer: "Yes" },
+      { text: "You write something new and original", answer: "No" },
+      { text: "You copy a paragraph from a webpage", answer: "Yes" },
+      { text: "You paraphrase content from a magazine article", answer: "Yes" },
+    ],
+    type: "true_false",
+  },
+  {
+    id: 85,
+    question:
+      "For each statement about types of social media activity, select Yes if it will likely be allowed on most social media platforms or No if it likely will not be allowed.",
+    statements: [
+      { text: "Impersonate a real person", answer: "No" },
+      { text: "Post negative reviews of products or services", answer: "Yes" },
+      {
+        text: "Post original content that you created yourself",
+        answer: "Yes",
+      },
+      {
+        text: "Share someone else's content that is their intellectual property",
+        answer: "No",
+      },
+    ],
+    type: "true_false",
+  },
+  {
+    id: 86,
+    question: "Evaluate the image below and identify each connection type.",
+    answers: {
+      "The right (blue) cable": "Micro USB connector",
+      "The middle (black) cable": "USB-C connector",
+      "The left (white) cable": "Lightning connector",
+    },
+    type: "identification",
+  },
+  {
+    id: 87,
+    question: "What distinguishes generative AI from chatbots?",
+    options: [
+      "A. Generative AI and chatbots are terms used interchangeably to refer to the same technology.",
+      "B. Chatbots are designed for creating new content, while generative AI specializes in text-based interactions.",
+      "C. Both generative AI and chatbots excel at simulating conversations, but generative AI is restricted to pre-defined responses.",
+      "D. Generative AI focuses on generating creative content, while chatbots simulate human-like conversations.",
+    ],
+    answer: "D",
+    type: "single_choice",
+  },
+  {
+    id: 88,
+    question:
+      "Which three devices provide input when connected to a non-touchscreen computer? (Choose 3.)",
+    options: ["Keyboard", "Mouse", "Headset (with microphone)"],
+    answer: ["Keyboard", "Mouse", "Headset (with microphone)"],
+    type: "multiple_choice",
+  },
+  {
+    id: 89,
+    question:
+      "What are three key elements of an effective Acceptable Use Policy? (Choose 3.)",
+    options: [
+      "A. A bibliography",
+      "B. A license agreement",
+      "C. A copyright and trademark statement",
+      "D. A policy statement",
+      "E. A definition section",
+      "F. A violations or sanctions section",
+    ],
+    answer: ["D", "E", "F"],
+    type: "multiple_choice",
+  },
+  {
+    id: 90,
+    question:
+      "You are working on a research project and need to verify that an information source is in the public domain. For each statement, select True if it is a reason a copyrighted work may become part of the public domain and False if it is not.",
+    statements: [
+      { text: "The copyright has expired", answer: "True" },
+      {
+        text: "The copyright owner did not follow the copyright renewal process",
+        answer: "True",
+      },
+      {
+        text: "The copyright owner has chosen to place the work in the public domain",
+        answer: "True",
+      },
+    ],
+    type: "true_false",
+  },
+  {
+    id: 91,
+    question: "Move each collaboration term to the correct description.",
+    mappings: [
+      {
+        description: "Proofreading a Google Docs document for a classmate",
+        term: "Editing",
+      },
+      {
+        description:
+          "Creating five slides for a group PowerPoint presentation that is saved on OneDrive",
+        term: "Coauthoring",
+      },
+      {
+        description:
+          "Using the Spelling & Grammar tool to correct errors in a classmate's Word Online document",
+        term: "Editing",
+      },
+      {
+        description:
+          "Taking photos and inserting them into a Google Slides presentation created by your classmates",
+        term: "Coauthoring",
+      },
+    ],
+    type: "matching",
+  },
+  {
+    id: 92,
+    question:
+      "Ava reshared Mia's post on social media, and now more people can see it. Which action would help protect Mia's personal data?",
+    options: [
+      "A. Turning on privacy settings to control who can see your information",
+      "B. Making your profile public so everyone can see your posts.",
+      "C. Sharing posts with friends only, trusting they will keep your information private.",
+      "D. Sharing your phone number or address in your profile bio to stay connected.",
+    ],
+    answer: "A",
+    type: "single_choice",
+  },
+  {
+    id: 93,
+    question: "Move each type of storage drive to its description.",
+    mappings: [
+      {
+        description: "Is small enough to carry on a keychain",
+        term: "Flash drive",
+      },
+      {
+        description:
+          "Can be installed permanently in a computer and does not use moving parts",
+        term: "Solid state drive (SSD)",
+      },
+      {
+        description: "Uses a magnetic disc to read and write data",
+        term: "Hard disc drive (HDD)",
+      },
+      {
+        description:
+          "Can be accessed on any device with an internet connection",
+        term: "Cloud drive",
+      },
+    ],
+    type: "matching",
+  },
+  {
+    id: 94,
+    question: "Move each concept to its correct description.",
+    mappings: [
+      {
+        description:
+          "A computer program that simulates conversation with human users",
+        term: "Chatbot",
+      },
+      {
+        description:
+          "A type of machine learning that uses artificial neural networks to learn from data",
+        term: "Deep Learning",
+      },
+      {
+        description:
+          "A type of artificial intelligence that is used to create new data, such as text, images, or music",
+        term: "Generative AI",
+      },
+      {
+        description:
+          "A set of defined rules that allow different software applications to communicate with each other",
+        term: "API",
+      },
+    ],
+    type: "matching",
+  },
+  {
+    id: 95,
+    question: "Move the appropriate images to the correct orientations.",
+    mappings: [
+      {
+        description:
+          "Musiqa notalari tushirilgan eski qog'oz rasmi (eni balandligidan katta gorizontal ko'rinish)",
+        term: "Landscape",
+      },
+      {
+        description:
+          "Yonlari kuygan eski qog'oz rasmi (balandligi enidan katta vertikal ko'rinish)",
+        term: "Portrait",
+      },
+      {
+        description: "Gullik rasm (kvadrat shakl)",
+        term: "Neither (Kvadrat format)",
+      },
+    ],
+    type: "matching",
+  },
+  {
+    id: 96,
+    question:
+      "You plan to purchase a portable computing device. The device must be able to run on battery power and must have a built-in physical keyboard. (Choose 2.)",
+    options: [
+      "A. Windows All-in-One computer",
+      "B. Mac desktop computer",
+      "C. Chromebook",
+      "D. Windows laptop computer",
+      "E. Android tablet",
+      "F. Android smartphone",
+    ],
+    answer: ["C", "D"],
+    type: "multiple_choice",
+  },
+  {
+    id: 97,
+    question:
+      "The information saved about you online is known as your digital footprint. For each statement, select True or False.",
+    statements: [
+      {
+        text: "Updating your browser every six months wipes your digital footprint clean",
+        answer: "False",
+      },
+      {
+        text: "Anonymous online comments you post cannot be traced back to you if you use a web filter",
+        answer: "False",
+      },
+      {
+        text: "Potential employers can find images and messages posted on social media by applicants under the age of 18",
+        answer: "True",
+      },
+    ],
+    type: "true_false",
+  },
+  {
+    id: 98,
+    question:
+      "For each statement about images that are protected by Creative Commons licenses and not in the public domain, select True or False.",
+    statements: [
+      { text: "You can use the image for free", answer: "True" },
+      { text: "You can use the image unconditionally", answer: "False" },
+      {
+        text: "If you use the image, you must cite its source",
+        answer: "True",
+      },
+    ],
+    type: "true_false",
+  },
+  {
+    id: 99,
+    question:
+      "A boy in your art class posts a photo of a pig with your head pasted on it on a social media site. What should you do?",
+    options: [
+      "A. Respond with a neutral comment just so he knows you saw it.",
+      "B. Tell the boy you're curious and want to understand why he posted the photo.",
+      "C. Assume it's about your weight and go on a diet.",
+      "D. Post a revenge photo with his face on bacon.",
+    ],
+    answer: "B",
+    type: "single_choice",
+  },
+  {
+    id: 100,
+    question:
+      "You are gathering information online for a research paper. Which three pieces of information about each webpage should you save? (Choose 3.)",
+    options: [
+      "A. Purpose of the information",
+      "B. Page title",
+      "C. URL",
+      "D. Author, if provided",
+      "E. Page content sources",
+      "F. Comments that support the veracity of the page content",
+    ],
+    answer: ["B", "C", "D"],
+    type: "multiple_choice",
+  },
+  {
+    id: 101,
+    question:
+      "You need to create an exact copy of your Windows computer system to ensure that you can restore the computer, applications, and files to the current state in the event of a catastrophic system crash. What should you do?",
+    options: [
+      "A. Create a system repair disc.",
+      "B. Create a system image.",
+      "C. Set up Windows Backup.",
+      "D. Turn on File History.",
+    ],
+    answer: "B",
+    type: "single_choice",
+  },
+  {
+    id: 102,
+    question:
+      "You are working on a group project and one group member is making changes to the shared project without consulting the rest of the group. What should you do?",
+    options: [
+      "A. Take away the person's editing access to the document.",
+      "B. Restore the document by removing their changes.",
+      "C. Ignore the changes and keep working on your part.",
+      "D. Have a group discussion about editing the document.",
+    ],
+    answer: "D",
+    type: "single_choice",
+  },
+  {
+    id: 103,
+    question:
+      "You need to identify consistent file-naming conventions for a shared file management system that supports multiple software applications and operating systems. For each statement, select Yes if it supports the goal and No if it does not.",
+    statements: [
+      { text: "Insert spaces between words", answer: "No" },
+      { text: "Use long, descriptive file names", answer: "Yes" },
+      {
+        text: "For file name series that include dates, use the format MMDDYY",
+        answer: "No",
+      },
+      {
+        text: 'Do NOT use special characters (!@#$%*()\'"":;?, []{})',
+        answer: "Yes",
+      },
+    ],
+    type: "true_false",
+  },
+  {
+    id: 104,
+    question:
+      "You need to identify the standard features of the taskbar in a Windows operating system. For each statement, select Yes if you can perform the action from the taskbar or No if you can't.",
+    statements: [
+      { text: "Start the Task Manager", answer: "Yes" },
+      { text: "Adjust the audio output volume", answer: "Yes" },
+      { text: "Display network connection settings", answer: "Yes" },
+      {
+        text: "Minimize all open programs to display the desktop",
+        answer: "Yes",
+      },
+    ],
+    type: "true_false",
+  },
+  {
+    id: 105,
+    question:
+      "Which two methods do websites use to track visitors' online browsing habits? (Choose 2.)",
+    options: [
+      "A. Facial recognition",
+      "B. Third-party cookies",
+      "C. VPN tunneling",
+      "D. First-party cookies",
+    ],
+    answer: ["B", "D"],
+    type: "multiple_choice",
+  },
+  {
+    id: 106,
+    question:
+      "You are downloading an exe file to use on your device. Which operating system does this file work in?",
+    options: ["A. Linux", "B. MacOS", "C. Windows", "D. iOS"],
+    answer: "C",
+    type: "single_choice",
+  },
+  {
+    id: 107,
+    question:
+      "Which two methods should you use to reduce eye strain while using a digital display? (Choose 2.)",
+    options: [
+      "A. Make sure the primary light source is not shining directly into your eyes",
+      "B. Position the screen slightly above eye level",
+      "C. Make sure the screen is not too close to your eyes",
+      "D. Shine the primary light source directly onto the screen",
+    ],
+    answer: ["A", "C"],
+    type: "multiple_choice",
+  },
+  {
+    id: 108,
+    question:
+      "For each statement about the differences between wired and wireless networking, select True or False.",
+    statements: [
+      {
+        text: "An encrypted Wi-Fi connection is more secure than an Ethernet connection",
+        answer: "False",
+      },
+      {
+        text: "Wi-Fi connections typically have fewer data transmission delays than Ethernet connections.",
+        answer: "False",
+      },
+      {
+        text: "An Ethernet connection typically provides faster network connection speeds than a Wi-Fi connection",
+        answer: "True",
+      },
+    ],
+    type: "true_false",
+  },
+  {
+    id: 109,
+    question:
+      "You use a local installation of Microsoft Word. Yesterday, you started writing a letter to a friend, and saved the file to your Documents folder. Today, you open the file and finish writing the letter. You need to save the changes you made to the file today. You select File and then Save. What is the result?",
+    options: [
+      "A. Word overwrites the previously saved version of the file.",
+      "B. Word prompts you to choose a new location to save the file.",
+      "C. Word saves a new copy of the file, resulting in two separate files.",
+      "D. Word prompts you to enter a new file name.",
+    ],
+    answer: "A",
+    type: "single_choice",
+  },
+  {
+    id: 110,
+    question:
+      "You write a research paper for school. In your paper, you paraphrase information from an article you read on the internet. You do not cite the source of the information in your bibliography. What is this an example of?",
+    options: [
+      "A. Attribution",
+      "B. Fair use",
+      "C. Creative Commons use",
+      "D. Plagiarism",
+    ],
+    answer: "D",
+    type: "single_choice",
+  },
+  {
+    id: 111,
+    question:
+      "You are having problems with your Windows laptop computer. Before contacting support, you must gather information about your device, its processor, RAM amount, and the version of OS. On a Windows computer, where can you find the device and system information?",
+    options: [
+      "A. File > Info",
+      "B. Settings > About",
+      "C. Settings > System Info",
+      "D. Desktop > System Info",
+    ],
+    answer: "B",
+    type: "single_choice",
+  },
+  {
+    id: 112,
+    question:
+      "Your teacher has cautioned you about protecting your digital identity. Which three activities help define your digital identity? (Choose three)",
+    options: [
+      "A. Media posted by other people that you share with your friends.",
+      "B. Your profile.",
+      "C. Using Twitter and Snapchat instead of Facebook.",
+      "D. Comments you post or tweet.",
+      "E. Only posting from a phone, never from a computer.",
+      "F. Having multiple email accounts.",
+    ],
+    answer: ["A", "B", "D"],
+    type: "multiple_choice",
+  },
+  {
+    id: 113,
+    question:
+      "You're having difficulty sending and receiving information. How can you identify whether your device is connected to the Internet?",
+    options: [
+      "A. Try saving a file.",
+      "B. Download a Speedtest.",
+      "C. Try sending a text.",
+      "D. Open a browser.",
+    ],
+    answer: "D",
+    type: "single_choice",
+  },
+  {
+    id: 114,
+    question: "Which of the following is an example of cyberbullying?",
+    options: [
+      "A. Stealing someone's password and pretending to be that person while tweeting or posting things online.",
+      "B. Posting songs of your favorite artists online and charging your friends money to download them.",
+      "C. Helping a friend by posting researched articles about bullying to their blog.",
+      "D. Writing an opinion article about the unfair requirements of cheerleader tryouts and submitting it to your school news website.",
+    ],
+    answer: "A",
+    type: "single_choice",
+  },
 ];
