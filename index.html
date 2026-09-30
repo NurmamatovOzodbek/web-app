@@ -115,13 +115,110 @@
     </style>
   </head>
   <body>
-    <body>
-      <div class="card">
-        <!-- Yuqori panel: Bayroqcha tugmasi va Savol sarlavhasi -->
+    <div class="card">
+      <!-- Test Boshlash Paneli (Vaqt tanlash va Start) -->
+      <div
+        id="start-screen"
+        style="
+          text-align: center;
+          padding: 25px 15px;
+          background: #f8fafc;
+          border-radius: 8px;
+          border: 1px solid #e2e8f0;
+          margin-bottom: 20px;
+        "
+      >
+        <h2 style="margin-top: 0; color: #1e293b">Testga xush kelibsiz! 👋</h2>
+        <p style="color: #64748b; font-size: 15px">
+          Testni boshlashdan oldin o'zingizga qulay vaqt rejimini tanlang:
+        </p>
+
+        <div style="margin: 20px 0">
+          <label
+            for="timer-select"
+            style="font-weight: bold; margin-right: 10px; color: #334155"
+            >Vaqtni tanlang:</label
+          >
+          <select
+            id="timer-select"
+            style="
+              padding: 8px 14px;
+              border-radius: 6px;
+              border: 1px solid #cbd5e1;
+              font-size: 15px;
+              cursor: pointer;
+            "
+          >
+            <option value="15">15 daqiqa</option>
+            <option value="30" selected>30 daqiqa</option>
+            <option value="60">1 soat (60 daqiqa)</option>
+            <option value="0">Vaqtsiz (Cheklovsiz)</option>
+          </select>
+        </div>
+
+        <button
+          class="btn-submit"
+          onclick="startQuiz()"
+          style="
+            font-size: 16px;
+            padding: 12px 24px;
+            width: auto;
+            display: inline-block;
+          "
+        >
+          Testni Boshlash 🚀
+        </button>
+      </div>
+
+      <!-- Asosiy Test Maydoni (Start bosilguncha yashirin turadi) -->
+      <div id="quiz-area" style="display: none">
+        <!-- Progress Bar va Taymer -->
+        <div style="margin-bottom: 15px">
+          <div
+            style="
+              display: flex;
+              justify-content: space-between;
+              align-items: center;
+              margin-bottom: 5px;
+            "
+          >
+            <span
+              id="progress-text"
+              style="font-size: 14px; font-weight: bold; color: #475569"
+              >Bajarildi: 0% (0/0)</span
+            >
+            <span
+              id="timer-text"
+              style="font-size: 14px; font-weight: bold; color: #e11d48"
+              >⏱️ --:--</span
+            >
+          </div>
+          <div
+            style="
+              width: 100%;
+              background-color: #e2e8f0;
+              height: 8px;
+              border-radius: 4px;
+              overflow: hidden;
+            "
+          >
+            <div
+              id="progress-bar"
+              style="
+                width: 0%;
+                height: 100%;
+                background-color: #2563eb;
+                transition: width 0.3s;
+              "
+            ></div>
+          </div>
+        </div>
+
+        <!-- Yuqori panel: Bayroqcha tugmasi -->
         <div
           style="
             display: flex;
-            justify-content: space-between;
+            justify-content: flex-end;
             align-items: center;
             margin-bottom: 10px;
           "
@@ -131,7 +228,7 @@
             onclick="toggleFlag()"
             style="
               background: transparent;
-              border: 1px solid #e2e8f0;
+              border: 1px solid #cbd5e1;
               border-radius: 6px;
               padding: 6px 12px;
               cursor: pointer;
@@ -141,7 +238,7 @@
           </button>
         </div>
 
-        <!-- Test savollari konteyneri -->
+        <!-- Savol va javoblar -->
         <div id="quiz-container"></div>
         <div id="feedback" class="feedback"></div>
 
@@ -154,7 +251,7 @@
           <button class="nav-btn" onclick="nextQuestion()">Keyingisi ►</button>
         </div>
 
-        <!-- 3-QISM: Savollar Xaritasi (Question Grid) -->
+        <!-- Savollar Xaritasi -->
         <div
           style="
             margin-top: 25px;
@@ -177,39 +274,35 @@
             style="display: flex; flex-wrap: wrap; gap: 8px"
           ></div>
         </div>
-
-        <!-- Tahlil va Natija bloki -->
-        <div
-          id="result-container"
-          style="display: none; margin-top: 20px; text-align: center"
-        >
-          <h2>Test Natijalari 📊</h2>
-          <div id="stats-summary" style="font-size: 18px; margin: 15px 0"></div>
-
-          <div
-            class="result-actions"
-            style="display: flex; gap: 10px; justify-content: center"
-          >
-            <button class="btn-submit" onclick="restartQuiz(false)">
-              Qaytadan boshlash 🔄
-            </button>
-            <button
-              id="btn-retry-wrong"
-              class="btn-submit"
-              onclick="restartQuiz(true)"
-              style="background-color: #e11d48; display: none"
-            >
-              Faqat xatolarni ishlash ❌
-            </button>
-          </div>
-        </div>
       </div>
 
-      <script src="questions.js"></script>
-      <script src="app.js"></script>
-    </body>
+      <!-- Tahlil va Natija bloki -->
+      <div
+        id="result-container"
+        style="display: none; margin-top: 20px; text-align: center"
+      >
+        <h2>Test Natijalari 📊</h2>
+        <div id="stats-summary" style="font-size: 18px; margin: 15px 0"></div>
 
-    <!-- JavaScript fayllarini ulaymiz (Shu tartibda bo'lishi shart) -->
+        <div
+          class="result-actions"
+          style="display: flex; gap: 10px; justify-content: center"
+        >
+          <button class="btn-submit" onclick="restartQuiz(false)">
+            Qaytadan boshlash 🔄
+          </button>
+          <button
+            id="btn-retry-wrong"
+            class="btn-submit"
+            onclick="restartQuiz(true)"
+            style="background-color: #e11d48; display: none"
+          >
+            Faqat xatolarni ishlash ❌
+          </button>
+        </div>
+      </div>
+    </div>
+
     <script src="questions.js"></script>
     <script src="app.js"></script>
   </body>
