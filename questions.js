@@ -1176,6 +1176,7 @@ const questions = [
   {
     id: 81,
     question: "What is the main contributor to your digital identity?",
+    type: "single",
     options: [
       "A. Data stored on your computer that allows you to log in to a secure website through a secure account",
       "B. Documents stored on your computer",
@@ -1183,7 +1184,7 @@ const questions = [
       "D. The information you post on social networking sites, blogs, and forums",
     ],
     answer: "D",
-    type: "single_choice",
+
   },
   {
     id: 82,
@@ -1200,7 +1201,7 @@ const questions = [
     id: 83,
     question:
       "You and a friend are collaborating on a web comic. Move each term from the list on the left to its activity on the right.",
-    mappings: [
+    items: [
       {
         activity:
           "You and your friend conduct a video chat to brainstorm ideas for the story.",
@@ -1257,12 +1258,26 @@ const questions = [
   {
     id: 86,
     question: "Evaluate the image below and identify each connection type.",
-    answers: {
-      "The right (blue) cable": "Micro USB connector",
-      "The middle (black) cable": "USB-C connector",
-      "The left (white) cable": "Lightning connector",
-    },
-    type: "identification",
+    items: [
+      {
+        activity:
+        "The right (blue) cable",
+        term: "Micro USB connector",
+      },
+      {
+        activity:
+        "The middle (black) cable",
+        term: "USB-C connector",
+      },
+      {
+        activity:
+        "The left (white) cable",
+        term: "Lightning connector",
+      },
+
+    ],
+
+    type: "matching",
   },
   {
     id: 87,
@@ -1274,7 +1289,7 @@ const questions = [
       "D. Generative AI focuses on generating creative content, while chatbots simulate human-like conversations.",
     ],
     answer: "D",
-    type: "single_choice",
+    type: "single",
   },
   {
     id: 88,
@@ -1319,7 +1334,7 @@ const questions = [
   {
     id: 91,
     question: "Move each collaboration term to the correct description.",
-    mappings: [
+    items: [
       {
         description: "Proofreading a Google Docs document for a classmate",
         term: "Editing",
@@ -1353,12 +1368,12 @@ const questions = [
       "D. Sharing your phone number or address in your profile bio to stay connected.",
     ],
     answer: "A",
-    type: "single_choice",
+    type: "single",
   },
   {
     id: 93,
     question: "Move each type of storage drive to its description.",
-    mappings: [
+    items: [
       {
         description: "Is small enough to carry on a keychain",
         term: "Flash drive",
@@ -1383,7 +1398,7 @@ const questions = [
   {
     id: 94,
     question: "Move each concept to its correct description.",
-    mappings: [
+    items: [
       {
         description:
           "A computer program that simulates conversation with human users",
@@ -1410,7 +1425,7 @@ const questions = [
   {
     id: 95,
     question: "Move the appropriate images to the correct orientations.",
-    mappings: [
+    items: [
       {
         description:
           "Musiqa notalari tushirilgan eski qog'oz rasmi (eni balandligidan katta gorizontal ko'rinish)",
@@ -1488,7 +1503,7 @@ const questions = [
       "D. Post a revenge photo with his face on bacon.",
     ],
     answer: "B",
-    type: "single_choice",
+    type: "single",
   },
   {
     id: 100,
@@ -1516,7 +1531,7 @@ const questions = [
       "D. Turn on File History.",
     ],
     answer: "B",
-    type: "single_choice",
+    type: "single",
   },
   {
     id: 102,
@@ -1529,7 +1544,7 @@ const questions = [
       "D. Have a group discussion about editing the document.",
     ],
     answer: "D",
-    type: "single_choice",
+    type: "single",
   },
   {
     id: 103,
@@ -1583,7 +1598,7 @@ const questions = [
       "You are downloading an exe file to use on your device. Which operating system does this file work in?",
     options: ["A. Linux", "B. MacOS", "C. Windows", "D. iOS"],
     answer: "C",
-    type: "single_choice",
+    type: "single",
   },
   {
     id: 107,
@@ -1629,7 +1644,7 @@ const questions = [
       "D. Word prompts you to enter a new file name.",
     ],
     answer: "A",
-    type: "single_choice",
+    type: "single",
   },
   {
     id: 110,
@@ -1642,7 +1657,7 @@ const questions = [
       "D. Plagiarism",
     ],
     answer: "D",
-    type: "single_choice",
+    type: "single",
   },
   {
     id: 111,
@@ -1655,7 +1670,7 @@ const questions = [
       "D. Desktop > System Info",
     ],
     answer: "B",
-    type: "single_choice",
+    type: "single",
   },
   {
     id: 112,
@@ -1683,7 +1698,7 @@ const questions = [
       "D. Open a browser.",
     ],
     answer: "D",
-    type: "single_choice",
+    type: "single",
   },
   {
     id: 114,
@@ -1695,6 +1710,6 @@ const questions = [
       "D. Writing an opinion article about the unfair requirements of cheerleader tryouts and submitting it to your school news website.",
     ],
     answer: "A",
-    type: "single_choice",
+    type: "single",
   },
 ];
