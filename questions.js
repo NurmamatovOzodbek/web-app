@@ -908,7 +908,7 @@ const questions = [
   {
     id: 63,
     question:
-      "Identify web pages likely to contain accurate and unbiased information for research (Yes/No):",
+      "You are searching the web to gather information for a research paper. You need to identify webpages that are likely to contain accurate and unbiased information for your research. For each statement, select Yes if it indicates that a webpage meets the requirements or No if it does not.",
     type: "true_false",
     statements: [
       { text: "The webpage has misspelled words", correct: "False" },
@@ -919,12 +919,12 @@ const questions = [
   {
     id: 64,
     question:
-      "Identify examples of good netiquette in an office work environment (Yes/No):",
+      "As an ethical computer user, you have a responsibility to practice good netiquette at all times. You need to identify examples of good netiquette in an office work environment. For each statement, select Yes if it is an example of good netiquette or No if it is not.",
     type: "true_false",
     statements: [
       {
         text: "Copy your coworkers on all email messages you send to keep them in the loop",
-        correct: "False",
+        correct: "True",
       },
       {
         text: "Share large files from a cloud storage location instead of attaching them to email messages",
