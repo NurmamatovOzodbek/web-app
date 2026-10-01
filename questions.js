@@ -1183,17 +1183,19 @@ const questions = [
       "C. For each site or service you use, your username and password",
       "D. The information you post on social networking sites, blogs, and forums",
     ],
-    answer: "D",
-
+    correct: [3],
   },
   {
     id: 82,
     question:
       "For each statement, select Yes if it is a warning that an email is a phishing message, or No if it is not.",
     statements: [
-      { text: "The message includes a threat", answer: "Yes" },
-      { text: "The message uses a generic greeting", answer: "Yes" },
-      { text: "The message requests your private information", answer: "Yes" },
+      { text: "The message includes a threat", correct: "True" },
+      { text: "The message uses a generic greeting", correct: "True" },
+      {
+        text: "The message requests your private information",
+        correct: "True",
+      },
     ],
     type: "true_false",
   },
@@ -1230,10 +1232,13 @@ const questions = [
     question:
       "You are writing a research paper. You need to add references to your work. For each scenario, select Yes if you must add a reference or No if you do not.",
     statements: [
-      { text: "You use an idea from a news article", answer: "Yes" },
-      { text: "You write something new and original", answer: "No" },
-      { text: "You copy a paragraph from a webpage", answer: "Yes" },
-      { text: "You paraphrase content from a magazine article", answer: "Yes" },
+      { text: "You use an idea from a news article", correct: "True" },
+      { text: "You write something new and original", correct: "False" },
+      { text: "You copy a paragraph from a webpage", correct: "True" },
+      {
+        text: "You paraphrase content from a magazine article",
+        correct: "True",
+      },
     ],
     type: "true_false",
   },
@@ -1242,15 +1247,18 @@ const questions = [
     question:
       "For each statement about types of social media activity, select Yes if it will likely be allowed on most social media platforms or No if it likely will not be allowed.",
     statements: [
-      { text: "Impersonate a real person", answer: "No" },
-      { text: "Post negative reviews of products or services", answer: "Yes" },
+      { text: "Impersonate a real person", correct: "False" },
+      {
+        text: "Post negative reviews of products or services",
+        correct: "True",
+      },
       {
         text: "Post original content that you created yourself",
-        answer: "Yes",
+        correct: "True",
       },
       {
         text: "Share someone else's content that is their intellectual property",
-        answer: "No",
+        correct: "False",
       },
     ],
     type: "true_false",
@@ -1260,21 +1268,17 @@ const questions = [
     question: "Evaluate the image below and identify each connection type.",
     items: [
       {
-        activity:
-        "The right (blue) cable",
+        activity: "The right (blue) cable",
         term: "Micro USB connector",
       },
       {
-        activity:
-        "The middle (black) cable",
+        activity: "The middle (black) cable",
         term: "USB-C connector",
       },
       {
-        activity:
-        "The left (white) cable",
+        activity: "The left (white) cable",
         term: "Lightning connector",
       },
-
     ],
 
     type: "matching",
@@ -1288,7 +1292,7 @@ const questions = [
       "C. Both generative AI and chatbots excel at simulating conversations, but generative AI is restricted to pre-defined responses.",
       "D. Generative AI focuses on generating creative content, while chatbots simulate human-like conversations.",
     ],
-    answer: "D",
+    correct: [3],
     type: "single",
   },
   {
@@ -1296,7 +1300,7 @@ const questions = [
     question:
       "Which three devices provide input when connected to a non-touchscreen computer? (Choose 3.)",
     options: ["Keyboard", "Mouse", "Headset (with microphone)"],
-    answer: ["Keyboard", "Mouse", "Headset (with microphone)"],
+    correct: [0, 1, 2],
     type: "multiple_choice",
   },
   {
@@ -1311,7 +1315,7 @@ const questions = [
       "E. A definition section",
       "F. A violations or sanctions section",
     ],
-    answer: ["D", "E", "F"],
+    correct: [3, 4, 5],
     type: "multiple_choice",
   },
   {
@@ -1319,14 +1323,14 @@ const questions = [
     question:
       "You are working on a research project and need to verify that an information source is in the public domain. For each statement, select True if it is a reason a copyrighted work may become part of the public domain and False if it is not.",
     statements: [
-      { text: "The copyright has expired", answer: "True" },
+      { text: "The copyright has expired", correct: "True" },
       {
         text: "The copyright owner did not follow the copyright renewal process",
-        answer: "True",
+        correct: "True",
       },
       {
         text: "The copyright owner has chosen to place the work in the public domain",
-        answer: "True",
+        correct: "True",
       },
     ],
     type: "true_false",
@@ -1336,22 +1340,19 @@ const questions = [
     question: "Move each collaboration term to the correct description.",
     items: [
       {
-        description: "Proofreading a Google Docs document for a classmate",
+        def: "Proofreading a Google Docs document for a classmate",
         term: "Editing",
       },
       {
-        description:
-          "Creating five slides for a group PowerPoint presentation that is saved on OneDrive",
+        def: "Creating five slides for a group PowerPoint presentation that is saved on OneDrive",
         term: "Coauthoring",
       },
       {
-        description:
-          "Using the Spelling & Grammar tool to correct errors in a classmate's Word Online document",
+        def: "Using the Spelling & Grammar tool to correct errors in a classmate's Word Online document",
         term: "Editing",
       },
       {
-        description:
-          "Taking photos and inserting them into a Google Slides presentation created by your classmates",
+        def: "Taking photos and inserting them into a Google Slides presentation created by your classmates",
         term: "Coauthoring",
       },
     ],
@@ -1367,7 +1368,7 @@ const questions = [
       "C. Sharing posts with friends only, trusting they will keep your information private.",
       "D. Sharing your phone number or address in your profile bio to stay connected.",
     ],
-    answer: "A",
+    correct: [0],
     type: "single",
   },
   {
@@ -1375,21 +1376,19 @@ const questions = [
     question: "Move each type of storage drive to its description.",
     items: [
       {
-        description: "Is small enough to carry on a keychain",
+        def: "Is small enough to carry on a keychain",
         term: "Flash drive",
       },
       {
-        description:
-          "Can be installed permanently in a computer and does not use moving parts",
+        def: "Can be installed permanently in a computer and does not use moving parts",
         term: "Solid state drive (SSD)",
       },
       {
-        description: "Uses a magnetic disc to read and write data",
+        def: "Uses a magnetic disc to read and write data",
         term: "Hard disc drive (HDD)",
       },
       {
-        description:
-          "Can be accessed on any device with an internet connection",
+        def: "Can be accessed on any device with an internet connection",
         term: "Cloud drive",
       },
     ],
@@ -1400,23 +1399,19 @@ const questions = [
     question: "Move each concept to its correct description.",
     items: [
       {
-        description:
-          "A computer program that simulates conversation with human users",
+        def: "A computer program that simulates conversation with human users",
         term: "Chatbot",
       },
       {
-        description:
-          "A type of machine learning that uses artificial neural networks to learn from data",
+        def: "A type of machine learning that uses artificial neural networks to learn from data",
         term: "Deep Learning",
       },
       {
-        description:
-          "A type of artificial intelligence that is used to create new data, such as text, images, or music",
+        def: "A type of artificial intelligence that is used to create new data, such as text, images, or music",
         term: "Generative AI",
       },
       {
-        description:
-          "A set of defined rules that allow different software applications to communicate with each other",
+        def: "A set of defined rules that allow different software applications to communicate with each other",
         term: "API",
       },
     ],
@@ -1427,17 +1422,15 @@ const questions = [
     question: "Move the appropriate images to the correct orientations.",
     items: [
       {
-        description:
-          "Musiqa notalari tushirilgan eski qog'oz rasmi (eni balandligidan katta gorizontal ko'rinish)",
+        def: "Musiqa notalari tushirilgan eski qog'oz rasmi (eni balandligidan katta gorizontal ko'rinish)",
         term: "Landscape",
       },
       {
-        description:
-          "Yonlari kuygan eski qog'oz rasmi (balandligi enidan katta vertikal ko'rinish)",
+        def: "Yonlari kuygan eski qog'oz rasmi (balandligi enidan katta vertikal ko'rinish)",
         term: "Portrait",
       },
       {
-        description: "Gullik rasm (kvadrat shakl)",
+        def: "Gullik rasm (kvadrat shakl)",
         term: "Neither (Kvadrat format)",
       },
     ],
@@ -1455,7 +1448,7 @@ const questions = [
       "E. Android tablet",
       "F. Android smartphone",
     ],
-    answer: ["C", "D"],
+    correct: [2, 3],
     type: "multiple_choice",
   },
   {
@@ -1465,15 +1458,15 @@ const questions = [
     statements: [
       {
         text: "Updating your browser every six months wipes your digital footprint clean",
-        answer: "False",
+        correct: "False",
       },
       {
         text: "Anonymous online comments you post cannot be traced back to you if you use a web filter",
-        answer: "False",
+        correct: "False",
       },
       {
         text: "Potential employers can find images and messages posted on social media by applicants under the age of 18",
-        answer: "True",
+        correct: "True",
       },
     ],
     type: "true_false",
@@ -1483,11 +1476,11 @@ const questions = [
     question:
       "For each statement about images that are protected by Creative Commons licenses and not in the public domain, select True or False.",
     statements: [
-      { text: "You can use the image for free", answer: "True" },
-      { text: "You can use the image unconditionally", answer: "False" },
+      { text: "You can use the image for free", correct: "True" },
+      { text: "You can use the image unconditionally", correct: "False" },
       {
         text: "If you use the image, you must cite its source",
-        answer: "True",
+        correct: "True",
       },
     ],
     type: "true_false",
@@ -1502,7 +1495,7 @@ const questions = [
       "C. Assume it's about your weight and go on a diet.",
       "D. Post a revenge photo with his face on bacon.",
     ],
-    answer: "B",
+    correct: [1],
     type: "single",
   },
   {
@@ -1517,7 +1510,7 @@ const questions = [
       "E. Page content sources",
       "F. Comments that support the veracity of the page content",
     ],
-    answer: ["B", "C", "D"],
+    correct: [1, 2, 3],
     type: "multiple_choice",
   },
   {
@@ -1530,7 +1523,7 @@ const questions = [
       "C. Set up Windows Backup.",
       "D. Turn on File History.",
     ],
-    answer: "B",
+    correct: [1],
     type: "single",
   },
   {
@@ -1543,7 +1536,7 @@ const questions = [
       "C. Ignore the changes and keep working on your part.",
       "D. Have a group discussion about editing the document.",
     ],
-    answer: "D",
+    correct: [3],
     type: "single",
   },
   {
@@ -1551,15 +1544,15 @@ const questions = [
     question:
       "You need to identify consistent file-naming conventions for a shared file management system that supports multiple software applications and operating systems. For each statement, select Yes if it supports the goal and No if it does not.",
     statements: [
-      { text: "Insert spaces between words", answer: "No" },
-      { text: "Use long, descriptive file names", answer: "Yes" },
+      { text: "Insert spaces between words", correct: "False" },
+      { text: "Use long, descriptive file names", correct: "True" },
       {
         text: "For file name series that include dates, use the format MMDDYY",
-        answer: "No",
+        correct: "False",
       },
       {
         text: 'Do NOT use special characters (!@#$%*()\'"":;?, []{})',
-        answer: "Yes",
+        correct: "True",
       },
     ],
     type: "true_false",
@@ -1569,12 +1562,12 @@ const questions = [
     question:
       "You need to identify the standard features of the taskbar in a Windows operating system. For each statement, select Yes if you can perform the action from the taskbar or No if you can't.",
     statements: [
-      { text: "Start the Task Manager", answer: "Yes" },
-      { text: "Adjust the audio output volume", answer: "Yes" },
-      { text: "Display network connection settings", answer: "Yes" },
+      { text: "Start the Task Manager", correct: "True" },
+      { text: "Adjust the audio output volume", correct: "True" },
+      { text: "Display network connection settings", correct: "True" },
       {
         text: "Minimize all open programs to display the desktop",
-        answer: "Yes",
+        correct: "True",
       },
     ],
     type: "true_false",
@@ -1589,7 +1582,7 @@ const questions = [
       "C. VPN tunneling",
       "D. First-party cookies",
     ],
-    answer: ["B", "D"],
+    correct: [1, 3],
     type: "multiple_choice",
   },
   {
@@ -1597,7 +1590,7 @@ const questions = [
     question:
       "You are downloading an exe file to use on your device. Which operating system does this file work in?",
     options: ["A. Linux", "B. MacOS", "C. Windows", "D. iOS"],
-    answer: "C",
+    correct: [2],
     type: "single",
   },
   {
@@ -1610,7 +1603,7 @@ const questions = [
       "C. Make sure the screen is not too close to your eyes",
       "D. Shine the primary light source directly onto the screen",
     ],
-    answer: ["A", "C"],
+    correct: [0, 2],
     type: "multiple_choice",
   },
   {
@@ -1620,15 +1613,15 @@ const questions = [
     statements: [
       {
         text: "An encrypted Wi-Fi connection is more secure than an Ethernet connection",
-        answer: "False",
+        correct: "False",
       },
       {
         text: "Wi-Fi connections typically have fewer data transmission delays than Ethernet connections.",
-        answer: "False",
+        correct: "False",
       },
       {
         text: "An Ethernet connection typically provides faster network connection speeds than a Wi-Fi connection",
-        answer: "True",
+        correct: "True",
       },
     ],
     type: "true_false",
@@ -1643,7 +1636,7 @@ const questions = [
       "C. Word saves a new copy of the file, resulting in two separate files.",
       "D. Word prompts you to enter a new file name.",
     ],
-    answer: "A",
+    correct: [0],
     type: "single",
   },
   {
@@ -1656,7 +1649,7 @@ const questions = [
       "C. Creative Commons use",
       "D. Plagiarism",
     ],
-    answer: "D",
+    correct: [3],
     type: "single",
   },
   {
@@ -1669,7 +1662,7 @@ const questions = [
       "C. Settings > System Info",
       "D. Desktop > System Info",
     ],
-    answer: "B",
+    correct: [1],
     type: "single",
   },
   {
@@ -1684,7 +1677,7 @@ const questions = [
       "E. Only posting from a phone, never from a computer.",
       "F. Having multiple email accounts.",
     ],
-    answer: ["A", "B", "D"],
+    correct: [0, 1, 3],
     type: "multiple_choice",
   },
   {
@@ -1697,7 +1690,7 @@ const questions = [
       "C. Try sending a text.",
       "D. Open a browser.",
     ],
-    answer: "D",
+    correct: [3],
     type: "single",
   },
   {
@@ -1709,7 +1702,7 @@ const questions = [
       "C. Helping a friend by posting researched articles about bullying to their blog.",
       "D. Writing an opinion article about the unfair requirements of cheerleader tryouts and submitting it to your school news website.",
     ],
-    answer: "A",
+    correct: [0],
     type: "single",
   },
 ];
