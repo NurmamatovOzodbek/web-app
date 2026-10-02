@@ -556,10 +556,10 @@ const questions = [
     question:
       "Question 38 of 80: Select OS if managed by operating system or App if managed by an app.",
     statements: [
-      { text: "Edits text files", correct: "False" }, // App
-      { text: "Searches the internet", correct: "False" }, // App
-      { text: "Allocates hardware resources", correct: "True" }, // OS
-      { text: "Communicates with peripheral devices", correct: "True" }, // OS
+      { text: "Edits text files", correct: "True" }, // App
+      { text: "Searches the internet", correct: "True" }, // App
+      { text: "Allocates hardware resources", correct: "False" }, // OS
+      { text: "Communicates with peripheral devices", correct: "False" }, // OS
     ],
   },
   {
@@ -680,7 +680,7 @@ const questions = [
     statements: [
       {
         text: "You can change document margins from the Print settings",
-        correct: "True",
+        correct: "False",
       },
       {
         text: "Duplex printing prints file content on both sides of the paper",
